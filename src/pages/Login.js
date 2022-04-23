@@ -7,14 +7,15 @@ import OktaAuth from '@okta/okta-auth-js';
 
 
 const Login=()=>{
-    // _handleSubmit=()=>{
-    //     OktaAuth.signin
+    _handleSubmit=()=>{
+        console.log("handlsubmit")
 
-    // }
+    }
     return(
         <div>
-            <h2>Login</h2>
-            {/* <button onClick={_handleSubmit()}>Login</button> */}
+            <h2>Login Page</h2>
+
+            <button onClick={_handleSubmit()}>Login</button>
 
         </div>
     )
